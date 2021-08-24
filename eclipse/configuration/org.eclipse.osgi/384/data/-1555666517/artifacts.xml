@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='update site: file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1629729042462'/>
+    <property name='site.checksum' value='3102680299'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='15'>
+    <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.ddms' version='22.3.0.v201310242005-887826'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/features/com.android.ide.eclipse.ddms_22.3.0.v201310242005-887826.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.hierarchyviewer' version='22.3.0.v201310242005-887826'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/plugins/com.android.ide.eclipse.hierarchyviewer_22.3.0.v201310242005-887826.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.traceview' version='22.3.0.v201310242005-887826'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/features/com.android.ide.eclipse.traceview_22.3.0.v201310242005-887826.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.ddms' version='22.3.0.v201310242005-887826'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/plugins/com.android.ide.eclipse.ddms_22.3.0.v201310242005-887826.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.adt' version='22.3.0.v201310242005-887826'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/plugins/com.android.ide.eclipse.adt_22.3.0.v201310242005-887826.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.gldebugger' version='22.3.0.v201310242005-887826'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/features/com.android.ide.eclipse.gldebugger_22.3.0.v201310242005-887826.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.base' version='22.3.0.v201310242005-887826'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/plugins/com.android.ide.eclipse.base_22.3.0.v201310242005-887826.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='overlay.com.android.ide.eclipse.adt.overlay' version='22.3.0.v201310242005-887826'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/plugins/overlay.com.android.ide.eclipse.adt.overlay_22.3.0.v201310242005-887826.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.gldebugger' version='22.3.0.v201310242005-887826'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/plugins/com.android.ide.eclipse.gldebugger_22.3.0.v201310242005-887826.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.traceview' version='22.3.0.v201310242005-887826'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/plugins/com.android.ide.eclipse.traceview_22.3.0.v201310242005-887826.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.ndk' version='22.3.0.v201310242005-887826'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/features/com.android.ide.eclipse.ndk_22.3.0.v201310242005-887826.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.hierarchyviewer' version='22.3.0.v201310242005-887826'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/features/com.android.ide.eclipse.hierarchyviewer_22.3.0.v201310242005-887826.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.ndk' version='22.3.0.v201310242005-887826'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/plugins/com.android.ide.eclipse.ndk_22.3.0.v201310242005-887826.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.adt' version='22.3.0.v201310242005-887826'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/features/com.android.ide.eclipse.adt_22.3.0.v201310242005-887826.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.adt.package' version='22.3.0.v201310242005-887826'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='file:/D:/Usuario/Desktop/Programacion%20de%20Sistemas/eclipse/ADT-22.3/plugins/com.android.ide.eclipse.adt.package_22.3.0.v201310242005-887826.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

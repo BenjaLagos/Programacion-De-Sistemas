@@ -1,0 +1,74 @@
+Intel(R) Hardware Accelerated Execution Manager (HAXM)
+with Intel(R) Virtualization Technology (VT) 
+for faster Android* Emulation
+
+
+Version 1.0.8
+----------------------------
+Changelog
+----------------------------
+This version merges the hotfix 1.0.7 and was validated on all supported platforms, including Mac OS X* Mavericks (10.9) and Windows* 8.1. 
+Fixed several installer issues
+
+----------------------------
+Overview
+----------------------------
+The Hardware Accelerated Execution Manager (HAXM) is a hardware-assisted virtualization engine (hypervisor) that uses Intel(R) Virtualization Technology (VT) to speed up Android* development.
+
+This software:
+-Uses Intel VT, available on select Intel processors
+-Provides hardware-accelerated emulation of Intel(R) x86 Android virtual devices
+-Integrates with the Android SDK
+
+----------------------------
+Prerequisites
+----------------------------
+Intel(R) HAXM requires the Android SDK to be installed (version 17 or higher).
+For best performance, using SDK version 20 or higher is recommended.
+
+Please refer to the Android developer website (http://developer.android.com/sdk/) for more information.
+
+----------------------------
+System Requirements
+----------------------------
+Hardware Requirements:
+-Intel(R) processor with support for VT-x, EM64T, and Execute Disable Bit
+-At least 1GB of available RAM
+
+Supported Operating Systems:
+Windows* 8.1 (32/64-bit)
+Windows* 8 (32/64-bit)
+Windows* 7 (32/64-bit)
+Windows Vista* (32/64-bit)
+Mac OS X* 10.6 (32/64-bit) or 10.7 (32/64-bit) or 10.8 (64-bit) or 10.9 (64-bit)
+Note: Test was NOT conducted on Windows* XP since Microsoft* will not offer support for this version. 
+
+
+
+Important:  Intel HAXM cannot be used on systems without an Intel processor, or an Intel processor lacking the hardware features, described in the "Hardware Requirements" section above.
+To determine the capabilities of your Intel processor, please visit http://ark.intel.com/
+
+Additionally, Intel HAXM can only accelerate Android x86 system images for emulator-x86. 
+HAXM has been validated with x86 system images provided by Intel at http://software.intel.com/en-us/android
+
+
+----------------------------
+Additional Documentation
+----------------------------
+For detailed installation instructions, latest release notes, and known limitations please visit:
+http://software.intel.com/en-us/android
+
+
+----------------------------
+Copyright (C) 2012 Intel Corporation. All rights reserved.
+All products, computer systems, dates, and figures specified are preliminary based on current expectations, and are subject to change without notice.
+* Other names and brands may be claimed as the property of others.
+
+----------------------------
+MIT License 
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
